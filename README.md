@@ -9,35 +9,24 @@
 ![Platform](https://img.shields.io/badge/Submission-Gradescope-brightgreen)
 ![Format](https://img.shields.io/badge/Files-1%20.tex%20%2B%201%20.pdf-orange)
 
-*General, shared rules that apply to **both** the Term Paper and the Project track. For track-specific instructions, jump to the right guide below.*
+*general rules and shit. project/termpaper specific is below*
 
-**[📄 Term Paper Guide →](./TERM_PAPER.md)** &nbsp;·&nbsp; **[🔧 Project Guide →](./PROJECT.md)** &nbsp;·&nbsp; **[📁 Sources →](./sources)**
+*ALSO NOTE I MADE TS FOR MYSELF AND SOME OF MY PEERS SO IF YOU ARE USING IT CROSS CHECK EVERY INFORMATION WITH SOMEONE IDK*
+
+**[Term Paper Guide →](./TERM_PAPER.md)** &nbsp;·&nbsp; **[Project Guide →](./PROJECT.md)** &nbsp;·&nbsp; **[Sources →](./sources)**
 
 </div>
 
 ---
+# UPCOMING DEADLINE - 24th AUG 8AM MORNING GET TO WORK AHHHHHHHHHHHH
 
-## Table of Contents
+## contents
 
-- [Which Guide Do I Need?](#which-guide-do-i-need)
-- [Overview](#overview)
-- [Submission Schedule](#submission-schedule)
-- [File Submission Rules](#file-submission-rules)
-- [Doubt Resolution — Who to Ask](#doubt-resolution--who-to-ask)
-- [What Draft 1 Actually Is](#what-draft-1-actually-is)
-- [Repository / Local Structure](#repository--local-structure)
-- [Sources](#sources)
-
----
-
-## Which Guide Do I Need?
-
-| You are writing... | Go to |
-|---|---|
-| A **Term Paper** (teams of 1–360 allowed) | **[TERM_PAPER.md](./TERM_PAPER.md)** |
-| A **Project Report** (single author only) | **[PROJECT.md](./PROJECT.md)** |
-
-Everything common to both — deadlines, file rules, doubt resolution — stays here in the README so it isn't duplicated.
+- [overview](#overview)
+- [submission rules for ALL drafts](#submission-rules)
+- [doubts](#doubts)
+- [DRAFT 1](#draft-1)
+- [sources](#sources)
 
 ---
 
@@ -45,8 +34,6 @@ Everything common to both — deadlines, file rules, doubt resolution — stays 
 
 | Item | Detail |
 |---|---|
-| Course | ELL305 |
-| Deliverable | Term Paper **or** Project Report (four cumulative submissions: 3 drafts + 1 final) |
 | Submission Platform | [Gradescope](https://gradescope.com) |
 | Textbook | [Sarangi — Computer Architecture (archbook.pdf)](https://srsarangi.github.io/archbook/archbook.pdf) |
 | Authorship | Term Paper: teams of 1–360 · Project Report: single author only |
@@ -56,43 +43,16 @@ Everything common to both — deadlines, file rules, doubt resolution — stays 
 
 ---
 
-## Submission Schedule
-
-```mermaid
-gantt
-    title ELL305 Term Paper / Project — Submission Timeline
-    dateFormat  YYYY-MM-DD
-    axisFormat  %d %b
-
-    section Submissions
-    Draft 1 (Background Preparations) :milestone, d1, 2026-08-24, 0d
-    Draft 2                           :milestone, d2, 2026-08-24, 1d
-    Draft 3                           :milestone, d3, 2026-08-24, 1d
-    Final Submission                  :milestone, dF, 2026-08-24, 1d
-```
-
-> Only Draft 1's date (**24 Aug 2026, 08:00**) has been announced so far. Update this chart as later deadlines are shared.
-
----
-
-## File Submission Rules
+## Submission Rules
 
 Every submission (including Draft 1) requires **two, and only two, files** — this applies identically to Term Paper and Project:
 
 1. **A single LaTeX file** containing *all* diagrams, graphs/plots, flowcharts, and circuit diagrams inline — no second `.tex` file, no auxiliary asset files, **no `.zip`**
 2. **A single PDF file** — must be reproducible by compiling file (1) above
 
-```mermaid
-flowchart LR
-    A["main.tex\n(all content + diagrams inline)"] -->|pdflatex / xelatex| B["main.pdf"]
-    B --> C{Both files\nready?}
-    C -->|Yes| D["Upload main.tex + main.pdf\nto Gradescope"]
-    C -->|No| A
-```
-
 ---
 
-## Doubt Resolution — Who to Ask
+## Doubts
 
 ```mermaid
 flowchart TD
@@ -101,12 +61,18 @@ flowchart TD
     R -->|"Chapters 1–12"| P1["Prof. Sumantra DuttaRoy"]
     R -->|"Chapter 13"| P2["Prof. Subrat Kar"]
 ```
-
+(no idea why it created a fucking chart for this but ill take it)
 > Heads up: the first question either professor will ask is *"What did the TAs / Utkarsh say?"* — so always route through the TAs first.
-
+ 
+**TA Contacts:**
+ 
+| TA | Email |
+|---|---|
+| Utkarsh Roy (Head TA) | [eez238339@iitd.ac.in](mailto:eez238339@iitd.ac.in) |
+| Garima Singhal | [eez238573@ee.iitd.ac.in](mailto:eez238573@ee.iitd.ac.in) |
 ---
 
-## What Draft 1 Actually Is
+## DRAFT 1
 
 Per Prof. Subrat Kar: Draft 1 is explicitly a **progress report**, not a preliminary version of the final paper. Per Head TA Utkarsh Roy, it must include a section titled **"Background Preparations"** describing the work completed so far, appropriately illustrated (circuit diagrams, flowcharts, figures, code snippets as needed).
 
@@ -141,35 +107,16 @@ The exact content of the "Background Preparations" section **differs** for Term 
 
 ---
 
-## Repository / Local Structure
-
-```
-ell305/
-├── README.md              # this file — shared rules, not submitted
-├── TERM_PAPER.md            # term-paper-specific instructions
-├── PROJECT.md                # project-specific instructions
-├── sources/                   # verbatim original emails, for cross-checking
-│   ├── 01-submission-logistics-email.md
-│   ├── 02-utkarsh-draft1-instructions.md
-│   ├── 03-subrat-kar-draft1-tips.md
-│   └── 04-garima-singhal-term-paper-tooling-email.md
-├── main.tex                   # THE single file actually submitted
-├── main.pdf                    # THE compiled second file submitted
-└── references.bib               # BibTeX export from Zotero
-```
-
----
-
 ## Sources
 
 Every instruction in this README and in `TERM_PAPER.md` / `PROJECT.md` is paraphrased/organized from the original communications below, kept verbatim so you can cross-check:
 
 | # | Source | Sender | Applies to |
 |---|---|---|---|
-| 1 | [Submission logistics email](./sources/01-submission-logistics-email.md) | Course communication | Both |
-| 2 | [Draft 1 instructions](./sources/02-utkarsh-draft1-instructions.md) | Utkarsh Roy (Head TA) | Both (general) |
-| 3 | [Draft 1 tips](./sources/03-subrat-kar-draft1-tips.md) | Prof. Subrat Kar | Both (split by section) |
-| 4 | [Mandatory tooling email](./sources/04-garima-singhal-term-paper-tooling-email.md) | Garima Singhal (TA) | Term Paper **only** |
+| 1 | [Submission logistics email](./sources/subrat_mail_17thAug.md) | Course communication | Both |
+| 2 | [Draft 1 instructions](./sources/utkarsh_teams_20thAug.md) | Utkarsh Roy (Head TA) | Both |
+| 3 | [Draft 1 tips](./sources/subrat_teams_21stAug.md) | Prof. Subrat Kar | Project |
+| 4 | [Mandatory tooling email](./sources/garima_mail_21stAug.md) | Garima Singhal (TA) | Term Paper |
 
 ---
 
