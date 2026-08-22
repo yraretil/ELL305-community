@@ -9,7 +9,7 @@
 
 *Term-paper-specific content only. For shared deadlines, file rules, and doubt resolution, see the [main README](./README.md).*
 
-[⬅ Back to README](./README.md) &nbsp;·&nbsp; [🔧 Project Guide](./PROJECT.md) &nbsp;·&nbsp; [📁 Sources](./sources)
+[⬅ Back to README](./README.md) &nbsp;·&nbsp; [Sources](./sources)
 
 </div>
 
