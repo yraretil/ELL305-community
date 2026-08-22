@@ -8,7 +8,7 @@
 
 *only for project people, with deadlines and information etc, see the [main README](./README.md).*
 
-[⬅ Back to README](./README.md) &nbsp;·&nbsp; [📄 Term Paper Guide](./TERM_PAPER.md) &nbsp;·&nbsp; [📁 Sources](./sources)
+[⬅ Back to README](./README.md) &nbsp;·&nbsp; [Sources](./sources)
 
 </div>
 
