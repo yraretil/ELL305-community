@@ -25,7 +25,7 @@
 
 ## Draft 1 — Section 1 Content
 
-Per Prof. Subrat Kar, Draft 1 for the **Project** covers, *inter alia*:
+Per Prof. Subrat Kar, Draft 1 for the **Project** covers, *inter alia*: (btw inter alia means 'among other things')
 
 1. **What has been done so far**
 2. **Description of experiments** — 0.5 page each, with **one figure per experiment**
