@@ -2,7 +2,7 @@
 
 # Source — Head TA (Utkarsh Roy) Draft 1 Instructions
 
-**Sender:** Utkarsh Roy, Head TA, Embedded Lab &nbsp;·&nbsp; **Applies to:** Draft 1 (general — Term Paper & Project)
+**Sender:** Utkarsh Roy, Head TA, Embedded Lab &nbsp;·&nbsp; **Applies to:** Draft 1 (Project)
 
 [⬅ Back to README](../README.md) &nbsp;|&nbsp; [Project-specific guide →](../PROJECT.md)
 
